@@ -1,38 +1,106 @@
+body {
+  background-color: #28abb9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .App {
+  /* background-color: #2d6187; */
+  border-radius: 0.4rem;
+  color: #fff;
+  width: 450px;
+  margin: 2rem auto;
+  padding: 1rem 5rem;
+}
+
+.App h1 {
+  text-align: left;
+  color: #fff;
+}
+
+.form-todo {
+  display: inline-block;
+}
+
+.form-todo input[type=text] {
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  color: #2d6187;
+  width: 370px;
+  margin-right: 0.3rem;
+  padding: 0.5rem;
+}
+
+.form-todo input[type=text]:focus {
+  outline: none;
+  border: 3px solid #a8dda8;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  color: #2d6187;
+  width: 365px;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+
+.todo-list {
+  background-color: #effad3;
+  border: none;
+  color: #2d6187;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  display: inline-block;
+  font-weight: bolder;
+  width: 375px;
+  padding: 5px;
+  margin: 0.3rem 0;
+}
+
+.btn {
+  outline: none;
+  background-color: #28abb9;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bolder;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.8rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-clear {
+  width: 385px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-todo {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-h1{
+  display: inline-block;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: beige;
+}
+
+
+/* .button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding: 0.7rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem auto 1rem auto;
+} */
